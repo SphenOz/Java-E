@@ -1,0 +1,22 @@
+Class Candidate{
+	private int candidateID;
+	String name;
+	String party;
+	
+	Candidate(int id, String name, String party){
+		candidateID = id;
+		this.name = name;
+		this.party = party'
+	}
+}
+Class Voter{
+	int voterID;
+	String name;
+	boolean hasVoted;
+	
+	Voter(int voterID, String name, boolean hasVoted){
+		this.voterID = voterID;
+		this.name = name;
+		this.hasVoted = hasVoted;
+	}
+}
